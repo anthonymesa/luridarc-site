@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       output: "docs"
     },
-    passthroughFileCopy: true
-    pathPrefix: "/luridarc-site", // or your repo name like "/luridarc-site/" if using a subpath
+    passthroughFileCopy: true,
+    pathPrefix: "/luridarc-site/", // or your repo name like "/luridarc-site/" if using a subpath
   };
 };
