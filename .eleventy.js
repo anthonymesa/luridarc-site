@@ -6,5 +6,6 @@ module.exports = function (eleventyConfig) {
       output: "docs"
     },
     passthroughFileCopy: true
+    pathPrefix: "/luridarc-site", // or your repo name like "/luridarc-site/" if using a subpath
   };
 };
